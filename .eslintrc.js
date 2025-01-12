@@ -8,5 +8,8 @@ module.exports = {
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "ignorePatterns": ["node_modules/*", "dist/*"]
+    "ignorePatterns": ["node_modules/*", "dist/*"],
+    "rules": {
+        "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+    },
   }
