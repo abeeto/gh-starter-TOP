@@ -4,7 +4,8 @@
   "description": "Starter Kit for projects on The Odin Project - comes with configured Webpack, ESlint and Prettier",
   "main": "index.js",
   "lint-staged": {
-    "**/*": ["eslint --fix", "prettier --write --ignore-unknown"]
+    "*.json": [],
+    "**/*.{js,jsx}": ["eslint --fix", "prettier --write --ignore-unknown"]
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
