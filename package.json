@@ -1,0 +1,16 @@
+{
+  "name": "gh-starter-top",
+  "version": "1.0.0",
+  "description": "Starter Kit for projects on The Odin Project - comes with configured Webpack, ESlint and Prettier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
