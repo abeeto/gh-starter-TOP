@@ -35,6 +35,7 @@ module.exports = {
       {
         test: /\.(?:js|mjs|cjs)$/,
         exclude: /node_modules/,
+        include: /src/,
         use: {
           loader: "babel-loader",
           options: {
