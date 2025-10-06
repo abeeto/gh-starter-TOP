@@ -1,7 +1,7 @@
 # gh-starter-TOP
 
 Starter Kit for projects on The Odin Project - comes with configured Webpack, ESlint and Prettier
-ESlint and Prettier work together and adhere to AriBnB style guide
+ESlint and Prettier work together and adhere to AirBnB style guide
 Also uses husky and staged-lint packages to lint + format before pushing to git
 
 ## Set Up
