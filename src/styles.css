@@ -1,19 +1,4 @@
-@font-face {
-    font-family: "Afacad";
-    src: url("./Afacad_Flux/AfacadFlux-VariableFont_slnt\,wght.ttf")
-    format("truetype");
-    font-weight: 100 900;
-    font-stretch: 75% 125%;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Oswald";
-    src: url("./Oswald/Oswald-VariableFont_wght.ttf")
-    format("truetype");
-    font-weight: 400 700;
-    font-stretch: 75% 125%;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300..700&family=Faustina:wght@400..700&display=swap');
 /* @link https://utopia.fyi/type/calculator?c=680,18,1.125,1240,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
 
 :root {
@@ -28,7 +13,7 @@
     font-size: var(--step-1);
 }
 body {
-    font-family: "Afacad";
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     line-height: 1.5;
     max-width: 800px;
@@ -36,8 +21,8 @@ body {
     padding-inline: clamp(30px, 1rem, 50px);
 }
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Oswald";
-    font-weight: 400;
+    font-family: "Faustina", serif;
+    font-weight: 500;
 }
 h1 {
     font-size: var(--step-5);
